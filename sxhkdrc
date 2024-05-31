@@ -2,9 +2,17 @@
 # wm independent hotkeys
 #
 
-# terminal emulator
+# # terminal emulator
+# super + Return
+# 	kitty 
+
+# Atajo de teclado para abrir Kitty en pantalla completa
 super + Return
-	kitty
+    kitty --name fullscreen
+
+# Atajo de teclado para abrir Kitty en modo flotante
+super + shift + Return
+    kitty --name floating
 
 # program launcher
 super + space
