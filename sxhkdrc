@@ -138,6 +138,15 @@ super {_,shift +} + F12
 super {_,shift +} + F11
 	amixer sset Master {5,15}%-; pkill -RTMIN+10 dwmblocks 
 
+# control_brillo_pantalla
+
+# Increase brightness
+super + F6
+    brightnessctl set +10%
+
+# Decrease brightness
+super + F5
+    brightnessctl set 10%-
 
 
 #---Screenshot---#
