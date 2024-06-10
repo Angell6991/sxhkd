@@ -129,6 +129,11 @@ ctrl + alt + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
 
+# Cambiar el enfoque entre ventanas tiled y float
+super + Tab
+    bspc node -f next.local
+
+
 # Audio_config
 
 # Increase volume
